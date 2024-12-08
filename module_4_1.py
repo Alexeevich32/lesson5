@@ -1,0 +1,13 @@
+from fake_math import divide as f_div
+from true_math import divide as t_div
+
+
+result1 = f_div(69, 3)
+print(result1)
+result2 = f_div(3, 0)
+print(result2)
+result3 = t_div(49, 7)
+print(result3)
+result4 = t_div(15, 0)
+print(result4)
+
